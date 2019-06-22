@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import DatePicker from 'react-datepicker'; // may want to switch to https://www.npmjs.com/package/react-dates to pick a range. 
 
-// import "react-datepicker/dist/react-datepicker.css";
 
 class Form extends Component {
 
@@ -20,10 +18,6 @@ class Form extends Component {
         <button onClick={this.props.moveUp}>Move Up </button>
         <button onClick={this.props.moveDown}>Move Down </button>
         <button onClick={this.props.deleteTodo}>delete </button>
-        {/* <DatePicker
-          selected={this.props.date}
-          onChange={this.props.pickDate}
-        /> */}
         <hr/>
       </div>
     )
